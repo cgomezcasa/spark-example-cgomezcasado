@@ -1,1 +1,7 @@
 language: java
+deploy:
+  skip_cleanup: true
+  provider: heroku
+  app: spark-example-cgomezcasado
+  api_key:
+    secure: xj3OTG+XQGOwHum7AgeJfSOcFbzQVr0+nYzQiqKcKn/q/xztnajP2GvN8Po5A//oUlO35M5RUxFoWdfCVzT5Dy++bRX2UiB6MnUOxmf+i4OG+6kU4G7PjVr76Xlmav8G1zcVc1JrmbfcpcvhBv4HNf+/GeXGuV+Vj7e/ArATZn8l+YlIv9OQxghGHRAfYbO7M6eqnGEsdkZaEQQAaB+gPUnQqLcKtHBTpTqPz9983WRIcRA1CTDDyGzx7UPOQlPXzhuyAzbxZas4B8u6hm8MaAn6OziFevf6CF8OhWqM5J9BRb5YW+Zhc8jX++ai+6LhRmkRQRhXPyXXD2aCBlgOq3QG3KrFjidBDTJrzzwss1iEzeRtHptntxlyTNFcAvIVxF0xpmzvvAx826ss3Wvv3hy2YPYZg0OEuFguG/BlOi9G0PRn9u8MDh68SXtZ51s9/AGW8uvC/AaMRMp4ldTP9wi7Y8HfzHLL77ZkmP4tGrZh/4WQospd8Uc+1I7dR/Mu6HVlCINSbAESqN5U3fjK1X+e8YHl1i60y9COuebjflXNswaKaXmLKqc7Bd+FS5q4/bMjDt84wwqx4yHVlFjI8L7PaIF5VreucuD+GvWrLMeFGLhs60bAzVTRFy8wLpUt7bWZHgGpuCHF5jj8gzu1qRo2YYZwgq3MsitW5Aduvk8=
